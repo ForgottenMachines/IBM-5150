@@ -1,0 +1,29 @@
+IBM PC-DOS 1.00
+Released in 1981 by IBM
+For the IBM PC model 5150
+
+Image quality: Verified as unmodified.
+
+This is the first version of IBM PC-DOS released by IBM for the IBM
+Personal Computer. It was based off of 86-DOS written by Tim
+Patterson for Seattle Computer Products machines, bought by
+Microsoft, and licensed to IBM. This version only supports single
+sided 5.25" (160K) floppy drives. It does not support hard drives or
+subdirectories.
+
+Although it may boot on some clones, the included BASIC requires
+IBM's BASIC in ROM.
+
+This archive includes one 160K disk image in ImageDisk, Raw,
+Teledisk, Transcopy, and PSI formats.
+
+Important: This disk image is formatted for DOS 1.x which may not be
+recognized by WinImage. We recommend you use ImageDisk to write this
+to a floppy disk, or use the Raw image with an emulator.
+
+DOS 1.x does not include the "55 AA" signature at the end of its boot 
+sector. This signature was added later and intended for use with hard 
+disks. However, many IBM PC clones will refuse to boot a floppy if 
+this signature is not present. If you manually use a hex editor to 
+add this signature to the boot sector, DOS 1.x will boot on most 
+clones.
